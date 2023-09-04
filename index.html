@@ -1,0 +1,17 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 id="header">BlackJack</h1>
+        <h2 id="message-el">Want to play a round?</h2>
+        <h3> Cards : </h3><p id = "card-el">  </p>
+        <p id = "sum-el"> </p>
+        <input type="button" id ="pick-btn" onclick="pickCard()" value= "Pick Random Card"/>
+        <input type="button"  id ="start-btn" onclick="play()" value="Play"/>
+        <input type="button"  id ="yes-btn" onclick="getNextCard()" value="Yes"/>
+        <input type="button"  id ="quit-btn" onclick="window.location.reload()" value="Quit"/>
+        <input type="button"  id ="restart-btn" onclick="window.location.reload()" value="Re Start"/>
+        <script src="index.js"></script>
+    </body>
+</html>
